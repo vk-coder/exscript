@@ -6,7 +6,8 @@ from builtins import chr
 from builtins import range
 from builtins import object
 import copy
-from collections import OrderedDict, Callable, defaultdict
+from collections import OrderedDict, defaultdict
+from typing import Callable
 
 class OrderedDefaultDict(OrderedDict):
 
